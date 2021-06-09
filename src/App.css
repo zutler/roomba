@@ -1,0 +1,61 @@
+.container {
+  background: rgb(235, 229, 229);
+}
+
+.box {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .center {
+  width: 90vw;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  line-height: 30px;
+}
+.column {
+  background: tomato;
+  margin: 2px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  flex: 1 0 auto;
+  height: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.btn {
+  margin: 0.2rem;
+}
+
+.roomba {
+  display: block;
+}
+
+.direction-0 {
+  transform: rotate(0deg);
+}
+
+.direction-90 {
+  transform: rotate(90deg);
+}
+
+.direction-180 {
+  transform: rotate(180deg);
+}
+
+.direction-270 {
+  transform: rotate(270deg);
+}
