@@ -1,0 +1,47 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 50px); /* Create 10 equal columns */
+  grid-template-rows: repeat(10, 50px);    /* Create 10 equal rows */
+  gap: 1px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.robot {
+  font-size: 24px;
+  transform-origin: center center;
+}
+
+.toolbar {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.message {
+  color: red;
+  margin-left: auto;
+}
